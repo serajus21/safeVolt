@@ -4,28 +4,6 @@ body {
 }
 :root {font-size: 16px;}
 
-/*
-<!-- header -->
-<header>
-    <!-- logo -->
-    <img src="favicon-logo.png" alt="" class="logo" id="logo">
-    <!-- nav -->
-    <nav class="nav" id="nav">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Pricing</a>
-        <a href="">Contact</a>
-    </nav>
-    <!-- ls_menu -->
-    <span class="ls_menu">
-        <a href="">Login</a>
-        <a href="">Sign Up</a>
-        <button class="menu" id="show" onclick="show()">|||</button>
-        <button class="menu" id="hide" onclick="hide()">X</button>
-    </span>
-</header>
-*/
-
 /* header */
 header {
     max-width: 1200px; margin: 0 auto; padding: 1em 0.5em;
@@ -40,18 +18,11 @@ header .ls_menu a:hover {border-color: lightcoral; color: lightcoral;}
 header .ls_menu .menu {background-color: transparent; border: none; font-size: 1.5em; margin: 0 0.2em; color: white; width: 1.5em; cursor: pointer; position: absolute; color: transparent;}
 header .ls_menu #show {rotate: 90deg; letter-spacing: 0.1em;}
 
-
-/* <!-- main -->
-<main>
-    <span class="subHeading">We promise your privacy</span>
-    <span class="heading">Protect you data <br>with high securiy</span>
-    <span class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit minus illum a accusantium aspernatur earum culpa, odio possimus corrupti magni nesciunt ut numquam, repellendus doloribus! Reprehenderit id nobis ad ipsam?</span>
-    <button class="trySafeVolt">Try SafeVolt</button>
-</main> */
+/* main */
 main  {max-width: 40em; padding: 8em 4em;}
 main span {display: block;}
 .subHeading {font-size: 1.3em; color: hotpink; font-weight: bold; margin-bottom: 1em;}
-.heading {font-size: 4em; color: white; font-weight: bolder;}
+.heading {font-size: 3em; color: white; font-weight: bolder;}
 .description {color: gray; font-size: 1.2em; margin: 1em 0;}
 .trySafeVolt {font-size: 1em; padding: 0.5em 1.5em; background-color: hotpink; border: none; cursor: pointer; color: black; font-weight: bold; margin-top: 1.5em;}
 .trySafeVolt:hover {background-color: yellow;}

@@ -19,11 +19,11 @@ header .ls_menu .menu {background-color: transparent; border: none; font-size: 1
 header .ls_menu #show {rotate: 90deg; letter-spacing: 0.1em;}
 
 /* main */
-main  {max-width: 40em; padding: 8em 4em;}
+main  {max-width: 63.75em; padding: 8em 4em;}
 main span {display: block;}
 .subHeading {font-size: 1.3em; color: hotpink; font-weight: bold; margin-bottom: 1em;}
-.heading {font-size: 4em; color: white; font-weight: bolder;}
-.description {color: gray; font-size: 1.2em; margin: 1em 0;}
+.heading {font-size: 5em; color: white; font-weight: bolder; width: 100%;}
+.description {color: gray; font-size: 1.2em; margin: 1em 0; max-width: 70%;}
 .trySafeVolt {font-size: 1em; padding: 0.5em 1.5em; background-color: hotpink; border: none; cursor: pointer; color: black; font-weight: bold; margin-top: 1.5em;}
 .trySafeVolt:hover {background-color: yellow;}
 
@@ -34,9 +34,11 @@ main span {display: block;}
 
 @media (max-width: 695px) {
     :root {font-size: 12px;}
+    .heading {font-size: 4em;}
 }
 @media (max-width: 545px) {
     :root {font-size: 10px;}
+    .heading {font-size: 4em;}
 }
 @media (max-width: 450px) {
     :root {font-size: 8px;}
@@ -47,10 +49,13 @@ main span {display: block;}
     header .nav a {margin: 1.2em 0;}
     header .ls_menu .menu {position: static; color: white;}
     header .ls_menu #hide {display: none;}
+    .heading {font-size: 4em;}
 }
 @media (max-width: 340px) {
     :root {font-size: 7px;}
+    .heading {font-size: 4em;}
 }
 @media (max-width: 265px) {
     :root {font-size: 5px;}
+    .heading {font-size: 4em;}
 }
